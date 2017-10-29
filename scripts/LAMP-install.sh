@@ -191,7 +191,7 @@ sed -i "s/;date.timezone =.*/date.timezone = \"UTC\"/" /etc/php5/apache2/php.ini
 #echo -e "\n--- Turn off disabled pcntl functions so we can use Boris ---\n"
 #sed -i "s/disable_functions = .*//" /etc/php5/cli/php.ini
 
-#echo -e "\n--- Configure Apache to use phpmyadmin ---\n"
+#echo -e "\n--- Configure Apache  to use phpmyadmin ---\n"
 #echo -e "\n\nListen 81\n" >> /etc/apache2/ports.conf
 #cat > /etc/apache2/conf-available/phpmyadmin.conf << "EOF"
 #<VirtualHost *:81>
